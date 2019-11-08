@@ -26,7 +26,7 @@ bin\kafka-server-start.sh config\server.properties
 bin\kafka-console-producer.sh --broker-list localhost:9092 --topic test-consumer-group
 ```
 
-*run Spring Boot app:
+* run Spring Boot app:
 
 ```
 mvn package -DskipTests
