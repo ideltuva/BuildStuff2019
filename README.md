@@ -23,7 +23,15 @@ bin\kafka-server-start.sh config\server.properties
 * run the producer:
 
 ```
-bin\kafka-console-producer.sh --broker-list localhost:9092 --topic test-consumer-group
+bin\kafka-console-producer.sh --broker-list localhost:9092 --topic test
+```
+
+* produce messages:
+```
+bin\kafka-console-producer.sh --broker-list localhost:9092 --topic test
+```
+```
+>[{"message":"hello world!"}, {"message":"another test message to be saved in mariaDB!"}]
 ```
 
 * run Spring Boot app:
