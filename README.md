@@ -18,14 +18,6 @@ bin\zookeeper-server-start.sh config\zookeeper.properties
 bin\kafka-server-start.sh config\server.properties
 ```
 
-
-
-* run the producer:
-
-```
-bin\kafka-console-producer.sh --broker-list localhost:9092 --topic test
-```
-
 * produce messages:
 ```
 bin\kafka-console-producer.sh --broker-list localhost:9092 --topic test
